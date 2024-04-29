@@ -136,11 +136,11 @@ create_virtualenv()
         fi
         if [ $? -gt 0 ]; then
             echo_error "Unable to install dependencies, aborting install."
-            deactivate
+            desactivate
             exit 1
         fi
     fi
-    deactivate
+    desactivate
     echo_ok "Virtual enviroment created"
 }
 
