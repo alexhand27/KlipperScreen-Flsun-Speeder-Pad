@@ -140,7 +140,7 @@ create_virtualenv()
             exit 1
         fi
     fi
-    deactivate
+    desactivate
     echo_ok "Virtual enviroment created"
 }
 
